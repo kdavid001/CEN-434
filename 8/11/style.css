@@ -1,0 +1,4 @@
+.classwork {
+  opacity: 0;
+  transition: opacity 0s ease-in-out;
+}

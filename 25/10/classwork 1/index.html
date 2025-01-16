@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <header>Cococnut</header>
+  </head>
+  <style>
+    body {
+      background-color: whitesmoke;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      background-image: linear-gradient(90deg, #11f1d3, #f5af19);
+    }
+
+    .Regform {
+      width: 400px;
+      background-color: white;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); */
+    }
+
+    .btn {
+      width: 100%;
+      height: 40px;
+      border: 0;
+      background: #115dfc;
+      border-radius: 7px;
+      outline: none;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    .image {
+      text-align: center;
+      /* box-shadow: 10px rgba(0, 0, 0, 0.1); */
+    }
+  </style>
+  <body>
+    <div class="Regform">
+      <div class="image">
+        <img src="diana-kuleniuk-oIR-PrUuFas-unsplash.jpg" width="80px" />
+      </div>
+      <form action="">
+        <h1>Coconut Registration form</h1>
+        <p>Fill the form with correct details</p>
+
+        <label>Firstname:</label>
+        <input type="text" placeholder="Enter your Firstname" />
+        <br />
+        <br />
+        <label>Lastname</label>
+        <input type="text" placeholder="Lastname" />
+        <br />
+        <br />
+        <label>Age</label>
+        <input type="number" />
+        <br />
+        <br />
+        <section style="border: rgb(147, 16, 16)">
+          <label>Gender: </label>
+          <input type="radio" name="Gender" />male
+          <input type="radio" name="Gender" />Female
+        </section>
+        <br />
+        <label for="">Email:</label>
+        <input type="email" />
+        <br />
+        <br />
+        <input class="btn" type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
