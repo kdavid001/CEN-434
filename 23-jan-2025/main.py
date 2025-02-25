@@ -24,11 +24,10 @@ print(y)
 # mydata2 = [{"name": "korede", "rooom_number":"Daniel E401"}, {"name": "rhema", "rooom_number":"Dorcas D201"}, {"name": "david", "rooom_number":"joseph F101"}, {"name": "Genesis", "rooom_number":"Dorcas A401"}]
 
 # z = mycol.insert_many(mydata2)
-
+# 
 myquery = {"name" : "korede"}
 myans = mycol.find(myquery)
 for n in myans:
     print(n)
 
 myquery = {"name" : "korede"}
-
